@@ -121,6 +121,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Gripper Controller.vi" Type="VI" URL="../../981LabViewComponents/Gripper Controller.vi"/>
 			<Item Name="Hook Controller.vi" Type="VI" URL="../../981LabViewComponents/Hook Controller.vi"/>
 			<Item Name="Init 2 Talon Drive Motors With CVS Files.vi" Type="VI" URL="../../981LabViewComponents/Init 2 Talon Drive Motors With CVS Files.vi"/>
+			<Item Name="Init 2 Talon Shooter With CVS Files.vi" Type="VI" URL="../../981LabViewComponents/Init 2 Talon Shooter With CVS Files.vi"/>
 			<Item Name="Init Arm Pneumatics with CVS File.vi" Type="VI" URL="../../981LabViewComponents/Init Arm Pneumatics with CVS File.vi"/>
 			<Item Name="Init Arm Zero.vi" Type="VI" URL="../../981LabViewComponents/Init Arm Zero.vi"/>
 			<Item Name="Init Double Pneumatics with CVS File.vi" Type="VI" URL="../../981LabViewComponents/Init Double Pneumatics with CVS File.vi"/>
@@ -136,6 +137,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Init Talon Arm Motors With CVS File.vi" Type="VI" URL="../../981LabViewComponents/Init Talon Arm Motors With CVS File.vi"/>
 			<Item Name="Init Talon Drive Motors With CVS Files.vi" Type="VI" URL="../../981LabViewComponents/Init Talon Drive Motors With CVS Files.vi"/>
 			<Item Name="Init Talon Gripper Motors With CVS File.vi" Type="VI" URL="../../981LabViewComponents/Init Talon Gripper Motors With CVS File.vi"/>
+			<Item Name="Init Talon Motor With CVS File.vi" Type="VI" URL="../../981LabViewComponents/Init Talon Motor With CVS File.vi"/>
 			<Item Name="Init Talon Winch Motor With CVS File.vi" Type="VI" URL="../../981LabViewComponents/Init Talon Winch Motor With CVS File.vi"/>
 			<Item Name="Initialize Max Allowed PDP Current Array.vi" Type="VI" URL="../../981LabViewComponents/Initialize Max Allowed PDP Current Array.vi"/>
 			<Item Name="Joystick 2 Trigger.vi" Type="VI" URL="../../981LabViewComponents/Joystick 2 Trigger.vi"/>
@@ -775,10 +777,11 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_buildSpecName" Type="Str">FRC Robot Boot-up Deployment</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/git/2020LabView/Builds</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Builds</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
