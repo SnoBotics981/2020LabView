@@ -99,6 +99,10 @@ AddOutputFilter chunkFilter
 		<Item Name="981LabViewComponents" Type="Folder">
 			<Item Name=".gitattributes" Type="Document" URL="../../981LabViewComponents/.gitattributes"/>
 			<Item Name="1DFAB500" Type="Document" URL="../../981LabViewComponents/1DFAB500"/>
+			<Item Name="2020-IntakeMotor.vi" Type="VI" URL="../../981LabViewComponents/2020-IntakeMotor.vi"/>
+			<Item Name="2020-LoaderMotor.vi" Type="VI" URL="../../981LabViewComponents/2020-LoaderMotor.vi"/>
+			<Item Name="2020-PulleyMotor.vi" Type="VI" URL="../../981LabViewComponents/2020-PulleyMotor.vi"/>
+			<Item Name="2020-ShooterMotor.vi" Type="VI" URL="../../981LabViewComponents/2020-ShooterMotor.vi"/>
 			<Item Name="Arm Angle to Pot Value.vi" Type="VI" URL="../../981LabViewComponents/Arm Angle to Pot Value.vi"/>
 			<Item Name="Arm Controller.vi" Type="VI" URL="../../981LabViewComponents/Arm Controller.vi"/>
 			<Item Name="Arm Extend Controller.vi" Type="VI" URL="../../981LabViewComponents/Arm Extend Controller.vi"/>
@@ -179,10 +183,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
-		<Item Name="2020-IntakeMotor.vi" Type="VI" URL="../../981LabViewComponents/2020-IntakeMotor.vi"/>
-		<Item Name="2020-LoaderMotor.vi" Type="VI" URL="../../981LabViewComponents/2020-LoaderMotor.vi"/>
-		<Item Name="2020-PulleyMotor.vi" Type="VI" URL="../../981LabViewComponents/2020-PulleyMotor.vi"/>
-		<Item Name="2020-ShooterMotor.vi" Type="VI" URL="../../981LabViewComponents/2020-ShooterMotor.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -805,7 +805,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">25</Property>
+				<Property Name="Bld_version.build" Type="Int">29</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
