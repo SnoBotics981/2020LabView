@@ -13,7 +13,29 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="2020-TestCodeOnWindows.vi" Type="VI" URL="../../981LabViewComponents/2020-TestCodeOnWindows.vi"/>
+		<Item Name="ReadConstantSpreadsheet.vi" Type="VI" URL="../../981LabViewComponents/ReadConstantSpreadsheet.vi"/>
+		<Item Name="2020-InitGlobalConstants.vi" Type="VI" URL="../../981LabViewComponents/2020-InitGlobalConstants.vi"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
+				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
+				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
+				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
+				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
+				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
+				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
+				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
+				<Item Name="CTRE_Phoenix_MotorControl_ControlMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Controls/CTRE_Phoenix_MotorControl_ControlMode.ctl"/>
+				<Item Name="WPI_DriverStationRobotMode2.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationRobotMode2.ctl"/>
+				<Item Name="WPI_CameraImageSize.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraImageSize.ctl"/>
+			</Item>
+			<Item Name="2020ConstantSpreadSheet.vi" Type="VI" URL="../../981LabViewComponents/2020ConstantSpreadSheet.vi"/>
+			<Item Name="2020 Create Constants from CVS Spreadsheet.vi" Type="VI" URL="../../981LabViewComponents/2020 Create Constants from CVS Spreadsheet.vi"/>
+			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="Target" Type="RT myRIO">
@@ -99,10 +121,12 @@ AddOutputFilter chunkFilter
 		<Item Name="981LabViewComponents" Type="Folder">
 			<Item Name=".gitattributes" Type="Document" URL="../../981LabViewComponents/.gitattributes"/>
 			<Item Name="1DFAB500" Type="Document" URL="../../981LabViewComponents/1DFAB500"/>
+			<Item Name="2020 Create Constants from CVS Spreadsheet.vi" Type="VI" URL="../../981LabViewComponents/2020 Create Constants from CVS Spreadsheet.vi"/>
 			<Item Name="2020-IntakeMotor.vi" Type="VI" URL="../../981LabViewComponents/2020-IntakeMotor.vi"/>
 			<Item Name="2020-LoaderMotor.vi" Type="VI" URL="../../981LabViewComponents/2020-LoaderMotor.vi"/>
 			<Item Name="2020-PulleyMotor.vi" Type="VI" URL="../../981LabViewComponents/2020-PulleyMotor.vi"/>
 			<Item Name="2020-ShooterMotor.vi" Type="VI" URL="../../981LabViewComponents/2020-ShooterMotor.vi"/>
+			<Item Name="2020ConstantSpreadSheet.vi" Type="VI" URL="../../981LabViewComponents/2020ConstantSpreadSheet.vi"/>
 			<Item Name="Arm Angle to Pot Value.vi" Type="VI" URL="../../981LabViewComponents/Arm Angle to Pot Value.vi"/>
 			<Item Name="Arm Controller.vi" Type="VI" URL="../../981LabViewComponents/Arm Controller.vi"/>
 			<Item Name="Arm Extend Controller.vi" Type="VI" URL="../../981LabViewComponents/Arm Extend Controller.vi"/>
